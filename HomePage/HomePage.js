@@ -73,9 +73,3 @@ Scroller.prototype = {
 
 var scroller = new Scroller();
 scroller.init();
-
-function get_started()
-{
-    window.scrollTo(500, 0);
-    window.scrollBy(0, 100);
-}

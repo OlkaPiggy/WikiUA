@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="icon" href="Screenshot_1.png">
+    <link rel="stylesheet" href="LogInRegisterPage.css">
+</head>
+
+<body>
+<section class="site">
+    <nav>
+        <a href="../HomePage/HomePage.html">Home<img src="../HomePage/images/Banner.png" height="100"  width="375" id="brand_name"></a>
+        <a href="../ArticlesPage/ArticlesPage.html">Articles</a>
+        <a href="/Form.html">Sign in/ Register</a>
+        <a href="../About%20us/AboutUsPage.html">About us</a>
+    </nav>
+</section>
+
+<div class="hero">
+    <div class="form-box">
+        <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+            <button type="button" class="toggle-btn" onclick="register()">Register</button>
+        </div>
+        <div class="social-icons">
+            <img src="images/Facebook.png">
+            <img src="images/Twitter.png">
+            <img src="images/Google.png">
+        </div>
+        <form class="input-group" id="login">
+            <input type="text"  class="input-field" placeholder="User Id" required>
+            <input type="text"  class="input-field" placeholder="Enter Password" required>
+            <input type="checkbox" class="check-box"><span>Remember Password</span>
+            <button type="submit" class="submit-btn">Log in</button>
+        </form>
+        <form class="input-group" id="register">
+            <input type="text"  class="input-field" placeholder="User Id" id="id_registration" required>
+            <input type="email"  class="input-field" placeholder="Email Id" id="email_registration" required>
+            <input type="text"  class="input-field" placeholder="Enter Password" id="password_registration" required>
+            <input type="checkbox" class="check-box"><span>I agree to the terms</span>
+            <button type="submit" class="submit-btn" onclick="validateform()">Register</button>
+        </form>
+    </div>
+</div>
+
+<script src="LogInPage.js"></script>
+</body>
+</html>
