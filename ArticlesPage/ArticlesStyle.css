@@ -35,7 +35,7 @@ body {
     color: #ffffff;
     text-decoration: none;
     height: 80px;
-    width:320px;
+    width:240px;
     vertical-align: bottom;
     text-align: center ;
     line-height: 100px;
@@ -77,70 +77,53 @@ iframe{
 }
 
 #link{
+    position:relative;
+    top:100px;
+    left:100px;
+}
 
-    position:absolute;
+#link1{
+    position:relative;
     top:100px;
     left:100px;
 }
 #link2{
-
-    position:absolute;
-    top:350px;
+    position:relative;
+    top:100px;
     left:100px;
 }
 #link3{
 
-    position:absolute;
-    top:600px;
+    position:relative;
+    top:100px;
     left:100px;
 }
 #link4{
 
-    position:absolute;
-    top:850px;
+    position:relative;
+    top:100px;
     left:100px;
 }
 #link5{
 
-    position:absolute;
-    top:1100px;
-    left:100px;
-}
-#link6{
-
-    position:absolute;
-    top:1100px;
-    left:100px;
-}
-#link7{
-
-    position:absolute;
-    top:1350px;
-    left:100px;
-}
-#link8{
-
-    position:absolute;
-    top:1600px;
-    left:100px;
-}
-#link9{
-
-    position:absolute;
-    top:1850px;
-    left:100px;
-}
-#link10{
-
-    position:absolute;
-    top:2100px;
+    position:relative;
+    top:100px;
     left:100px;
 }
 
 .back{
     border: 0.5mm solid rgba(0, 0, 0, 0.6);
     background-color: #ffffff;
-    width: 1527px;
-    height: 200px;
+    width: 1473px;
+    height: 150px;
     margin-top: 10px;
+    padding:20px;
+}
+
+.back a{
+    height: 10px;
+    width:240px;
+    vertical-align: top;
+    text-align: left ;
+    line-height: 10px;
 }
