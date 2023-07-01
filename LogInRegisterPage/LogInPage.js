@@ -19,8 +19,8 @@ function login()
 
 function validateform(){
 
-    console.log(validateid());
-    console.log(validatepass());
+    validateid();
+    validatepass();
     validateemail();
 
     window.alert("registered successfully");
